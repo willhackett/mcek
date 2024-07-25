@@ -1,3 +1,11 @@
+## TODO:
+
+- Client key sync protocol (similar to WhatsApp/Signal/Telegram)
+- Client key verifier protocol
+- Client cert lookup via publishers
+- Publisher lookups
+
+
 # Internet Engineering Task Force (IETF) Draft Specification
 
 ### Title: Secure/Multipurpose Internet Mail Extensions (S/MIME) Extension for Mail Client Encryption Keys (MCEK)
@@ -37,6 +45,7 @@ S/MIME provides a mechanism for sending and receiving secure email messages. Thi
 - **PKI**: Public Key Infrastructure.
 - **CA**: Certificate Authority.
 - **Base64**: A method of encoding binary data as ASCII text.
+- **Publisher**: A certificate publisher endpoint provided for the mail domain
 
 ### 3. Overview
 
